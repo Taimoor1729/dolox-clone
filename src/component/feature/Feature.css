@@ -1,0 +1,49 @@
+.feature-main{
+    height: 100vh;
+    background-color: #2c3e50;
+}
+
+.icon-style {
+    background-color: #76b547;
+    box-shadow: 40px 30px 0 -15px #76b547, -60px 40px 0 -30px #76b547, -100px 0 0 -50px #76b547, 100px 0 0 -50px #76b547;
+    display: block;
+    height: 128px;
+    left: 50%;
+    margin-left: -114px;
+    margin-top: -124px;
+    position: absolute;
+    width: 128px; 
+    border-radius: 200px;
+    overflow: hidden;
+    padding: 50px;  
+}   
+
+@keyframes swinging {
+    0% {
+      transform: rotate(2deg);
+    }
+    50% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(2deg);
+    }
+  }
+
+.icon-style {
+    /* transform-origin: 65.15% 0%; */
+    animation: swinging 2.5s ease-in-out infinite; /* Adjust the animation duration and properties as needed */
+  }
+
+/* .icon-style i {
+    background: #76b547;
+    box-shadow: 40px 30px 0 -15px #76b547, -60px 40px 0 -30px #76b547, -100px 0 0 -50px #76b547, 100px 0 0 -50px #76b547;
+} */
+
+.icon{
+    height: 128px;
+    margin-left: 0px;
+    margin-top: 0px;
+    opacity: 1;
+    width: 128px;
+}

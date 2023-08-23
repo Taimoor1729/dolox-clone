@@ -1,0 +1,70 @@
+.main{
+    background-image: url('../../assets/images/download.png');
+    
+}
+
+
+.laptop{
+    background-image: url(https://dolox.com/img/laptop.png);
+    /* background: transparent url(../img/laptop.png) no-repeat; */
+    background-size: 100%;
+    height: 354px;
+    left: 50%;
+    margin-left: -313.5px;
+    margin-top: -195px;
+    position: absolute;
+    top: 50%;
+    width: 627px;
+    z-index: 9;
+}
+
+.laptop-screen{
+    background: rgba(0,0,0,.85);
+    height: 287px!important;
+    left: 50%;
+    margin-left: -230.5px;
+    margin-top: -191px;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    white-space: nowrap;
+    width: 461px;
+    z-index: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laptop-social{ 
+    left: 50%;
+    margin-left: -231px;
+    margin-top: 43px;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 480px;
+}
+
+.laptop-camera{
+    background: #2c3033;
+    border-radius: 10px;
+    display: block;
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -186px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    z-index: 10;
+}
+
+.scroll-down-message{
+    font-size:  15px;
+}
