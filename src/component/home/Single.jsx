@@ -38,7 +38,7 @@ const Single = () => {
     <a className='laptop-camera' href='#contact'></a>
     <div className='laptop-screen' >
     {animationFinished ? (
-        <div className="scroll-down-message" style={{fontSize: '2.5em'}}>Scroll Down</div>
+        <div className="scroll-down-message" style={{fontSize: '2.5em', color: 'white'}}>Scroll Down</div>
       ) : (
         <TypeAnimation
           sequence={[
@@ -53,7 +53,7 @@ const Single = () => {
           ]}
           wrapper="span"
           speed={50}
-          style={{ fontSize: '2em', display: 'block' ,}}
+          style={{ fontSize: '2em', display: 'block' , color: 'white'}}
           onComplete={() => setAnimationFinished(true)}
           onTyping={() => handleTyping()}
         />
