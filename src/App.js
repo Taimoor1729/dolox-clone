@@ -4,6 +4,7 @@ import Single from './component/home/Single';
 import Background from './component/home/Background';
 import Process from './component/process/Process';
 import Feature from './component/feature/Feature';
+import About from './component/about/About';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Single/>
       <Process/>
       <Feature/>
+      <About/>
     </div>
   );
 }
